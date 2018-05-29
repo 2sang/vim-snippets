@@ -278,6 +278,10 @@ snippet div#
 	<div id="${1}">
 		${0}
 	</div>
+snippet div,
+	<div ${1}>
+		${0}
+	</div>
 snippet dl
 	<dl>
 		${0}
@@ -358,6 +362,10 @@ snippet form
 	</form>
 snippet form.
 	<form class="${1}" action="${2}" method="${3:post}">
+		${0}
+	</form>
+snippet form,
+	<form ${1}>
 		${0}
 	</form>
 snippet form#
@@ -685,6 +693,8 @@ snippet p
 	<p>${0}</p>
 snippet p.
 	<p class="${1}">${0}</p>
+snippet p,
+	<p ${1}>${0}</p>
 snippet p#
 	<p id="${1}">${0}</p>
 snippet param
