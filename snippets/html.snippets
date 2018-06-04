@@ -125,6 +125,8 @@ snippet a.
 	<a class="${1}" href="${2:#}">${0:$1}</a>
 snippet a#
 	<a id="${1}" href="${2:#}">${0:$1}</a>
+snippet a,
+	<a ${1}>${0}</a>
 snippet a:ext
 	<a href="http://${1:example.com}">${0:$1}</a>
 snippet a:mail
@@ -204,6 +206,8 @@ snippet button.
 	<button class="${1:button}" type="${2:submit}">${0}</button>
 snippet button#
 	<button id="${1}" type="${2:submit}">${0}</button>
+snippet button,
+	<button ${1}>${0}</button>
 snippet button:s
 	<button type="submit">${0}</button>
 snippet button:r
